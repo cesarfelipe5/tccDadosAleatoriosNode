@@ -1,0 +1,16 @@
+{
+  "name": "tccDadosAleatoriosNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "faker": "^6.6.6",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
