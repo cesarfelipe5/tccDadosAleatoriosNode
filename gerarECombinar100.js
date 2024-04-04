@@ -39,15 +39,15 @@ const saveDataToExcel = async (data, filename) => {
   const sheet = workbook.addWorksheet("Dados");
 
   sheet.columns = [
-    { header: "Nome Cliente", key: "nome_cliente", width: 30 },
-    { header: "Email", key: "email", width: 25 },
-    { header: "Nascimento", key: "nascimento", width: 15 },
-    { header: "CEP", key: "cep", width: 15 },
-    { header: "Logradouro", key: "logradouro", width: 30 },
-    { header: "Bairro", key: "bairro", width: 20 },
-    { header: "Cidade", key: "cidade", width: 20 },
-    { header: "Estado", key: "estado", width: 15 },
-    { header: "País", key: "pais", width: 15 },
+    { header: "nome_cliente", key: "nome_cliente", width: 30 },
+    { header: "email", key: "email", width: 25 },
+    { header: "nascimento", key: "nascimento", width: 15 },
+    { header: "cep", key: "cep", width: 15 },
+    { header: "logradouro", key: "logradouro", width: 30 },
+    { header: "bairro", key: "bairro", width: 20 },
+    { header: "cidade", key: "cidade", width: 20 },
+    { header: "estado", key: "estado", width: 15 },
+    { header: "pais", key: "pais", width: 15 },
   ];
 
   sheet.addRows(data);

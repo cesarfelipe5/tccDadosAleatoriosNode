@@ -30,11 +30,11 @@ const saveDataToExcel = async (data, filename) => {
 
   // Adiciona um cabeçalho
   sheet.columns = [
-    { header: "Nome Cliente", key: "nome_cliente", width: 30 },
+    { header: "nome_cliente", key: "nome_cliente", width: 30 },
     { header: "Email", key: "email", width: 50 },
     { header: "Nascimento", key: "nascimento", width: 10 },
-    { header: "CEP", key: "cep", width: 15 },
-    { header: "Logradouro", key: "logradouro", width: 30 },
+    { header: "cep", key: "cep", width: 15 },
+    { header: "logradouro", key: "logradouro", width: 30 },
     { header: "Bairro", key: "bairro", width: 25 },
     { header: "Cidade", key: "cidade", width: 25 },
     { header: "Estado", key: "estado", width: 10 },
