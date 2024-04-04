@@ -12,7 +12,7 @@ const generateData = async (numRecords) => {
     data.push({
       nome_cliente: faker.person.fullName(),
       email: faker.internet.email(),
-      nascimento: faker.date.birthdate(),
+      nascimento: faker.date.birthdate().toISOString().split("T")[0],
       cep: faker.location.zipCode(),
       logradouro: faker.location.streetAddress(),
       bairro: faker.location.county(),
